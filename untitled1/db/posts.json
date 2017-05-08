@@ -1,0 +1,18 @@
+[
+  { "id": 0,
+    "text": "New post",
+    "clientId": "asdfasdfasldfasd 0",
+    "url":"localhost:3000/posts/0"
+  },
+  {
+    "id": 1,
+    "text": "New post",
+    "clientId": "asdfasdfasldfasd",
+    "url":"localhost:3000/posts/1"
+  },
+  { "id": 2,
+    "text": "New post",
+    "clientId": "asdfasdfasldfasd 2",
+    "url":"localhost:3000/posts/2"
+  }
+]

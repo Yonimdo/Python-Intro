@@ -1,0 +1,139 @@
+"{0:10.2f}" - Presenting the Int as float with 10 chars
+
+
+"{:20}" - Presenting the string with 20 * " "
+
+"{:^20}" - Presenting the string with 20 * " " --- align center
+
+http://lms.10x.org.il/item/123/ - the excrcise from class
+
+
+"%d" %(son)
+
+"{}".format(sons)
+
+s[-1]
+
+s[0:2] - this is SLICE
+
+S[1::3] - starts from 1 and jumps by 3
+
+S[::-1] - check it out
+
+for i, c in enumerate("string"):
+	print(" ",i,c)  - i is the number and c is the char
+
+python my_function_with_print > the_output_file.txt
+
+(A,B) = "XY"  ---> A = 'X' ,B = 'Y'
+
+(Ctrl-Q) pycharm  - return doc
+def function(numbers):
+	""" this is the doc
+
+    """
+    return 1
+
+python -m ensurepip == worse case install pip
+pip install ipython
+pip instal nootbook pyreadline
+pip install --upgrade pip
+
+Ipython:::::: $save hhh 0-172
+
+
+with open("file.txt") as f
+	s = f.read()
+
+with open("file.txt") as f , open("file2.txt") as w  --> with can open 2 files at once
+    for line in f
+	    print(line.strip())
+
+
+
+def function (arg1,arg2,arg3)
+    ...
+    ...
+    ..
+    .
+
+    x = (a,b,c)
+    function(x) -> send the taple packed
+    function(*x) --> send the taple values (*)
+
+
+
+dict = {'arg1':a, 'arg2':format , 'arg3':c}
+
+function(*8dict) --> trys to match the KEYS to the argument names--> throws Exception if not succeeded
+
+message = "this is a {arg1} very nice way to use the {arg2} with dictionary".format(**d)
+
+
+
+sets from list comprehensions
+CONT = {d['continent'] for d in countries} --> this is a set or a unique list
+
+
+
+ctrl p - vars
+ctrl q - help
+
+
+if __name__ = '__main__'
+    this lines will run if the
+    module is THE MAIN thing that is running
+    if the module is imported these lines
+    WONT RUN
+
+import antigravity
+
+https://pypi.python.org/pypi
+
+
+run ipython notebook
+
+
+jupiter notebook --- in browser
+
+awsome-python.com
+
+for x in sys.path: # Shows the paths that python will use
+    print(x)
+
+
+    errbot.io/latest
+
+who moms like
+
+ls -l
+
+cat /etc/lsb-release #shows the operating system
+
+check the argparse - its pretty cool
+          doctopt
+          python click
+
+
+
+
+
+mtr 8.8.8.8
+dig 10x.co.il # DNS response
+
+http://sgsg.com/af/?n=3#main
+protocol://host:port/path/?args#tag
+
+
+
+
+
+
+---------SuperbootCamp
+
+from collactions import Couneter
+    a = Counter()
+    a['a']+=1
+
+pip uninstall :)
+
